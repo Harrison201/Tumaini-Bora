@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/faviconlogo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Font Api's -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Custom css import-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tumaini Bora | Home</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+  <div class="navbar-fixed">
+    <nav class="orange first" >
+      <div class="nav-wrapper">
+        <div class="container">
+          <div>
+            <span>MAIL:</span><a href="mailto: tumainiborake@gmail.com">tumainiborake@gmail.com</a>
+            <span>PHONE:</span><a href="mailto: tumainiborake@gmail.com">tumainiborake@gmail.com</a>
+            <a href="donate.html"><button class="button right black white-text" style="padding-top: 22px;padding-bottom: 24px;padding-left: 30px;padding-right: 30px;border:none;outline: none;">Donate</button>
+            </a>
+          </div>
+        <ul class="right hide-on-med-and-down black-text" style="padding-right: 50px;">
+        </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <div class="navbar-fixed ">
+        <nav class="white" >
+          <div class="nav-wrapper">
+            <div class="container">
+            <a href="#!" class="brand-logo"   id="logo"><img src="images/faviconlogo.png" alt="" height="50px" width="80px">
+              <!-- <span class="black-text" style="font-size: medium;cursor: normal;" >+(254)8563856</span> </a> -->
+            <a href="#"  data-target="mobile-demo" class="sidenav-trigger teal-text"><i class="material-icons">menu</i></a>
+            </div>
+            <ul class="right hide-on-med-and-down black-text" style="padding-right: 50px;">
+              <li class="active"><a href="index.html" class="black-text ">Home</a></li>
+              <li><a href="about.html" class="black-text">About</a></li>
+              <li><a href="contact.html" class="black-text">Contact us</a></li>
+              <li><a href="media.html" class="black-text">Forum</a></li>
+              <li><a href="donate.html" class="black-text">Donate</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+        <div style="visibility: hidden;" id="body">
+        <div style="transform:translate(-50%,-50%);position:absolute;left:50%;top: 50%;">
+        <div style="position: absolute; visibility:;" id="loader">
+          <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <script>
+          // var paragraph = document.getElementsByTagName('p').cla
+
+          var loader= document.getElementById('loader');
+          var paragraphs= document.getElementsByTagName('p');
+          // paragraphs.classList.add('flow-text'); 
+          loader.style.visibility="visible";
+          var body= document.getElementById('body');
+          setTimeout(function() {
+            loader.style.visibility="hidden";
+            body.style.visibility="visible";
+          },2000)
+        </script>
+       <!-- Side Bar -->
+       <ul class="sidenav" id="mobile-demo">
+        <div class="container center-align">
+          <i class="material-icons right" onclick=document.getElementById("mobile-demo").style.display="none"; style="cursor: pointer;transition: 7s;">close</i>
+          <a href="#!" class="brand-logo"   id="logo"><img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px" width="110px"></a>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="media.html">Activities</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+       </ul>
+       <!-- Navigation End -->
+      <!-- Image slider -->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img class="slidess" src="images/annie-spratt-cVEOh_JJmEE-unsplash.jpg" style="background-attachment: fixed;">
+            <div class="caption left-align">
+              <h3 style="font-weight: 700;" class="text">Help Bulid This Foundation</h3>
+              <h4 class="light grey-text text-lighten-3 flow-text" style="font-weight:600;">"We can't help everyone,But everyone <br> can help Someone"</h4>
+              <span class="center">--Lorreta Scott</span>
+              <br>
+              <br>
+              <button class="btn pulse orange" style="border-radius: 50px;"><a href="donate.html" class="white-text">Donate</a></button>
+            </div>
+          </li>
+          <li>
+            <img src="images/avel-chuklanov-9cx4-QowgLc-unsplash.jpg" style="background-attachment: fixed;"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 style="font-weight: 700;">Charity & Love are the same</h3>
+              <h5 class="light grey-text text-lighten-3" style="font-weight:600;">With your Funds Our programmes will be 
+                succesfull and effective and that way 
+                make the world a better place to be</h5>
+                <br>
+                <br>
+                <button class="btn pulse orange" style="border-radius: 50px;"><a href="donate.html" class="white-text">Donate</a></button>
+              </div>
+          </li>
+          <li>
+            <img src="images/ben-koorengevel-sjuLxUOEMY8-unsplash.jpg" style="background-attachment: fixed;"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 style="font-weight: 700;">Empower the youth</h3>
+              <h5 class="light grey-text text-lighten-3" style="font-weight:600;">The youth is the hope of a better tommorrow,  if they are empowerd
+                a better tommorrow is guranteed
+              </h5>
+              <br>
+              <br>
+              <button class="btn pulse orange" style="border-radius: 50px;"><a href="donate.html" class="white-text">Donate</a></button>
+            </div>
+          </li>
+          <li>
+            <img src="images/angie-j-XrhrDsZML9Q-unsplash.jpg" style="background-attachment: fixed;"> <!-- random image -->
+            <div class="caption center-align">
+              <h4 style="font-weight: 700;">Transforming lives Restoring hope </h4>
+              <h5 class="light grey-text text-lighten-3" style="font-weight:600;">With your helpd and funds, <br> we will make this a reality</h5>
+              <br>
+              <br>
+              <button class="btn pulse orange" style="border-radius: 50px;"><a href="donate.html" class="white-text">Donate</a></button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Image Slider end -->
+       <!-- Content Starts here -->
+      <div class="row" >
+        <div class="container m12 s12 center-align">
+            <h3 id="header_intro">Who are we</h3>
+        </div>
+      </div>
+      <div class="row" style="padding-left: ;">
+          <div class="row introduction" style="text-align: left;">
+            <div class="col m12 s12 l6 " style="padding: 0px;">
+              <h5 class="blue-text" id="header_intro" style="font-weight: 700;">Profile</h5>
+              <h3 id="" class=" black-text" style="font-weight: 700;color:rgb(241, 240, 237);">Welcome to our Charity</h3>
+              <p style="text-align: justify;font-weight: 600;opacity: 70%;">Tumaini Bora Africa (TBA) is a Community Based Organization registered to
+                operate in Narok County with a regional  scope under the NGO Act of 1990 
+                Non-governmental organization. TBA works as an implementing agency through 
+                partnership with other development organization in Kenya with all development 
+                donations received being taxed exempt. 
+                <h5 class="black-text" id="header_intro" style="font-weight: 700;">Our Core Values</h5>
+                <ol style="list-style-type:circle;font-weight: 600;opacity: 70%;">
+                  <li>Competency</li>
+                  <li>Transparency</li>
+                  <li>Honesty</li>
+                  <li>Unity</li>
+                </ol>
+               </p>
+            </div>
+            <div class="col m5  hide-on-med-and-down center">
+              <img src="images/ben-koorengevel-sjuLxUOEMY8-unsplash.jpg" class="responsive-img center" alt=""  style="border-radius: 30px;">
+            </div>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col m12 s12">
+            <div class="center-align">
+              <h3 class="" style="">Our mission</h3>
+            </div>
+        </div>
+      </div>
+      <div class="row " style="text-align: center;padding: 40px;background-color: rgb(241, 240, 237);padding: 40px;" class="container">
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Overcome Poverty</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">Through your funds we will reach as many youths as possibe.Funds will also make our
+                    efforts more effective and most importantly achieve our main goal 
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Fight Injustice</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">The Staff in the Foundation is well Experiencedand goal oriented.Our main motive is 
+                    to achive our goal and not mis manage funds
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Stop Environmental Degradation</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">The Staff in the Foundation is well Experiencedand goal oriented.Our main motive is
+                    to achive our goal and not mis manage funds
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Eliminate Irritracy</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">The foundation is known for carring out activites such as such as Gender Based violence 
+                    campaigns and also campaigns against FGM in the stipulated areas 
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Mentoring tommorrows leaders</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">The Youths are the hope for a better tommorrow,if they are well trained and equiped with relevant 
+                    information,The will make good leaders 
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12 m12">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card " style="border-radius: 15px;padding: 30px;background-color: rgb(230, 224, 224);box-shadow: none;">
+                <div class="card-content white-text">
+                  <span class="card-title center "><img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  </span> <h4 class="center black-text" style="font-weight: 600;">Programmes</h4>
+                  <p style="line-height: 30px;opacity: 70%;" class="center black-text">The foundation is targeted toward the issues that affect the youth in rural areas.The programs 
+                    include campaigns against FGM and Gender Based Violence programmes
+                    
+                    </p>
+                </div>
+                <!-- <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col s12 m12 l12 center-align">
+            <h3 class="container">Why Should You Donate?</h3>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row " style="text-align: center;padding: 40px;" class="container">
+          <div class="col l12" >
+              <div class="col m12 l4 s12">
+                  <img src="images/7eb0123905ccaae3cce06f5d9c46f8ea.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  <h4>Helping Hundreds</h4>
+                  <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">Through your funds we will reach as many youths as possibe.Funds will also make our
+                    efforts more effective and most importantly achieve our main goal</p>
+                  </p>
+              </div>
+              <div class="col m12 l4 s12">
+                  <img src="images/5d4fa69e10dd47e32bb495089b0c233d.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  <h4>Building a Stronger Community</h4>
+                  <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">The Staff in the Foundation is well Experiencedand goal oriented.Our main motive is 
+                    to achive our goal and not mis manage funds</p>
+                  </p>
+              </div>
+              <div class="col m12 l4 s12">
+                  <img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                  <h4>Experienced Staff</h4>
+                  <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">The Staff in the Foundation is well Experiencedand goal oriented.Our main motive is
+                    to achive our goal and not mis manage funds</p>
+                  </p>
+              </div>
+          </div>
+          <div class="row"></div>
+          <div class="row"></div>
+          <div class="col l12">
+            <div class="col m12 l4 s12">
+              <img src="images/080a869d82d82974b35cf32da19cc021.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+              <h4>Trusted Charity</h4>
+              <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">The foundation is known for carring out activites such as such as Gender Based violence 
+                campaigns and also campaigns against FGM in the stipulated areas</p>
+              </p>
+            </div>
+            <div class="col m12 l4 s12">
+              <img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+              <h4>Mentoring tommorrows leaders</h4>
+              <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">The Youths are the hope for a better tommorrow,if they are well trained and equiped with relevant 
+                information,The will make good leaders</p>
+              </p>
+            </div>
+            <div class="col m12 l4 s12">
+                <img src="images/ae9aeedf33fb82a8ae05449d8f443a4f.png" alt="" style="color: black;background-color: orange;border-radius: 50%;text-align: center;">
+                <h4>Programmes</h4>
+                <p style="font-weight: 400;line-height: 40px;font-size: 20px;" class="flow-text">The foundation is targeted toward the issues that affect the youth in rural areas.The programs 
+                  include campaigns against FGM and Gender Based Violence programmes</p>
+                </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <br>
+      <br>
+      <br>
+     
+      <div class="row" style="background-color: rgb(241, 240, 237);padding: 40px;">
+        <h5 class="blue-text " style="font-weight: 700;">Activities</h5> 
+        <h4 class="" style="font-weight: 700;">Previous and Current Projects</h4>
+        <div class="col m12 l4 s12">
+          <div class="row"  style="background-color: rgb(241, 240, 237);">
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4 s12">
+          <div class="row" >
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images/ben-koorengevel-sjuLxUOEMY8-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4 s12">
+          <div class="row" >
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images//annie-spratt-cVEOh_JJmEE-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4 s12">
+          <div class="row" >
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4 s12">
+          <div class="row" >
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4 s12">
+          <div class="row" >
+            <div class="col s12 m12">
+              <div class="card" style="border-radius: 20px;">
+                <div class="card-image">
+                  <img src="images/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
+                  <span class="card-title" style="font-weight: 700;">Community civic engagement activities <br><r class="orange-text">• Up coming</r></span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p> <br>
+                  <button class="btn blue white-text" style="">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- GALLERY starts here -->
+        <div class="row ">
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div id="particles-js" ></div>
+      <div class="row">
+        <div class="col m12 s12 center-align">
+          <h2>Sign up for our news letters</h2>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div id="particles-js" ></div>
+        <div class="col m12 s12 l6 center-align ">
+          <div class="container">
+          <form action="">
+            <h5>Sign Up</h5>
+            <div class="input-field col m12 s12">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col m12 s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="input-field col m12 s12">
+              <input id="email" type="text" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <span>Gender</span>
+            <div class="row">
+              <div class="col m6">
+                <p>
+                  <label>
+                    <input type="checkbox"  />
+                    <span>Male</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col m6">
+                <p>
+                  <label>
+                    <input type="checkbox"  />
+                    <span>Female</span>
+                  </label>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m12 s12">
+                <button class="submit btn" style="width: 100%;">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        </div>
+          <div class="col m12 s12 l6 center-align" style="padding-top: 100px;">
+            <img src="images/image0.jpg" alt="" width="100px" height="70px">
+            <p class="introduction valign-wrapper" style="font-family: 'Lobster', cursive;font-size: 25px;">“I don’t think you ever stop giving. I really don’t. I think it’s an on-going process. 
+                And it’s not just about being able to write a check. It’s being able to touch somebody’s
+                life.” <br>
+                <div class="row">
+                  <div class="col m12 s12 center-align" style="font-family: 'Lobster', cursive;font-size: 25px;">
+                    -Oprah Winfrey
+                  </div>
+                </div>  
+              </p>
+          </div>     
+      </div>
+
+      <div class="">
+        <div class="">
+          <div class="col m12 s12 l12">
+            <div class="carousel carousel-slider center" data-indicators="true">
+              <div class="carousel-item  white-text" href="#one!" style="background-image: url('images/annie-spratt-cVEOh_JJmEE-unsplash.jpg');background-repeat: no-repeat;background-size: cover">
+                <br>
+                <br>
+                <div style="padding: 30px;">
+                  <h3 class=" center" style="font-weight:600;">We need you help to make this happen,you Have the potential to change someones life<br> <br>
+                    <button class="center btn-large black-text orange" style="border: 1px solid orange;border-radius: 50px">Donate</button> </h3> 
+                </div>
+                
+                <div class="carousel-fixed-item center">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Tumaini Bora Africa</h4>
+      <h5>Overview</h5>
+      <p class="" style="font-size:17px;">Tumaini Bora Africa (TBA) is a Community Based Organization registered to operate in Narok County with a regional scope under the NGO Act of 1990 Non-governmental organization. TBA works as an implementing agency through partnership with other development organization in Kenya with all development donations received being taxed exempt.</p>
+        <h5>Mission</h5>
+        <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+          life skills-based education, financial literacy, livelihoods training and health related 
+          activities.We also strive to get things like sanitary towels clothes and learning materials
+          to the ones in need.By this we impact their livelihoods and help them achieve their dreams.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Tumaini bora Africa</h4>
+        <h5>Mission</h5>
+        <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+          life skills-based education, financial literacy, livelihoods training and health related 
+          activities.</p>
+          <h5>Goals</h5>
+          <p class="" style="font-size:17px;">
+            Our goal is to ensure that we reach out to many people as possible who need our help and support.
+            With your help(Funds) we will reach many people and at the same time be effective with that
+          </p>
+    </div>
+    <div class="modal-footer">
+      <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+    </div>
+  </div>
+
+
+  <footer class="page-footer orange ">
+    <div class="container center-align">
+      <div class="row">
+        <div class="col m12 s12 l12 center-align">
+         <img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px">
+        </div>
+      </div>
+      <div class="row center-align">
+        <div class="col m12 l4 s12 center-align">
+          <h5>About us</h5>
+          <ul class="" style="cursor: pointer;">
+           <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal1">Overview</a></li>
+            <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal2">Missions Visions & goals</a></li>
+            <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="about.html">Our staff</a></li>
+            </ul>
+        </div>
+        <div class="col l5 m12 s12">
+          <h5 class="">Tumaini Bora Africa</h5>
+          <p class="grey-text text-lighten-4 black-text" style="font-family: 'Lobster', cursive;font-size: 25px;color:black;">Giving is not just about making a donation. It is about changing lives.” <br>
+             </p>
+             <div class="row center-align">
+               <div class="col m12 s12 center-align" style="font-family: 'Lobster', cursive;font-size: 25px;">
+               <p>-Kathy Calvin</p>
+               </div>
+             </div>
+        </div>
+        <div class="col l3 m12 s12 black-text ">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="media.html">Forum</a></li>
+            <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+            <li><a class="grey-text text-lighten-3" href="donate.html">Donate</a></li>
+            <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+       <script>
+         var date = new Date();
+         var year =  date.getFullYear();
+         document.write("© "+year +" Tumaini Bora Africa");
+       </script> 
+      <a class="grey-text text-lighten-4 right" href="#!">Website by Harrison Njenga</a>
+      </div>
+    </div>
+  </footer>
+  </div>
+<!--JavaScript at end of body for optimized loading-->
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script>
+var instance = M.Carousel.init({
+fullWidth: true,
+indicators: true
+});
+// Or with jQuery
+
+// $('.carousel.carousel-slider').carousel({
+//   fullWidth: true,
+//   indicators: true
+// });
+$(document).ready(function(){
+indicators = "false";
+$('.slider').slider();
+});
+$(document).ready(function(){
+$('.materialboxed').materialbox();
+});
+$(document).ready(function(){
+$('.sidenav').sidenav();
+});
+$(document).ready(function(){
+$('.modal').modal();
+});
+$('.carousel-slider').carousel({ fullWidth: true });
+</script>
+</body>
+</html>

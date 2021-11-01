@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Favicon/favicon.jpeg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Font Api's -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Custom css import-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&display=swap" rel="stylesheet"> 
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Savude Foundation | Self-esteem</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar-fixed ">
+        <nav class="white">
+          <div class="nav-wrapper">
+            <div class="container">
+            <a href="#!" class="brand-logo"   id="logo"><img src="images/Favicon/faviconpng - Copy.png" alt="" height="50px" width="80px"></a>
+            <a href="#"  data-target="mobile-demo" class="sidenav-trigger teal-text"><i class="material-icons">menu</i></a>
+            </div>
+            <ul class="right hide-on-med-and-down black-text" style="padding-right: 50px;">
+              <li><a href="index.html" class="black-text active">Home</a></li>
+              <li><a href="media.html" class="black-text">Media</a></li>
+              <li><a href="donate.html" class="black-text">Donate</a></li>
+              <li><a href="about.html" class="black-text">About</a></li>
+              <li><a href="contact.html" class="black-text">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div style="visibility: hidden;" id="body">
+        <div style="transform:translate(-50%,-50%);position:absolute;left:50%;top: 50%;">
+        <div style="position: absolute; visibility:;" id="loader">
+          <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <script>
+          var loader= document.getElementById('loader');
+          loader.style.visibility="visible";
+          var body= document.getElementById('body');
+          setTimeout(function() {
+            loader.style.visibility="hidden";
+            body.style.visibility="visible";
+          },2000)
+        </script>
+      <!-- Side Bar -->
+      <ul class="sidenav" id="mobile-demo">
+        <div class="container center-align">
+          <i class="material-icons right" onclick=document.getElementById("mobile-demo").style.display="none"; style="cursor: pointer;transition: 7s;">close</i>
+          <a href="#!" class="brand-logo"   id="logo"><img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px" width="110px"></a>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="media.html">Activities</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <!-- Navigation End -->
+  
+
+      <!-- <div class="slider" style="height: 600px;">
+        <ul class="slides">
+          <li>
+            <img src="images/self esteem.jpeg" class="responsive-img" style="background-repeat: no-repeat;background-size: cover;height: 100%;width: 100%;"> 
+            <div class="caption left-align orange-text">
+              <h3 style="font-weight: 500;font-size: 60px;" class="white-text">SelfLove ,Self acceptance and self esteem among the teenagers</h3>
+              <h5 class="orange-text" style="font-weight: 700;font-size: 30px;">Suitable for everyone</h5>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+
+      <!-- <div class="row orange">
+          <div class="col m12">
+            <a href="#!" class="breadcrumb">First</a>
+            <a href="#!" class="breadcrumb">Second</a>
+            <a href="#!" class="breadcrumb">Third</a>
+          </div>
+      </div> -->
+      
+
+     <!-- <div class="row">
+       <div class="col s12 m12 l12 " style="height: 300px;background-color: rgb(19, 40, 110);padding:100px">
+        <h3 style="font-weight: 500;font-size: 30px;" class=" valing-wrapper"><b>Topic :</b>SelfLove ,Self acceptance and self esteem among the teenagers</h3>
+        <h5 class="orange-text" style="font-weight: 700;font-size: 30px;"> <b>Suitability :</b> Suitable for everyone</h5>
+       </div>
+     </div> -->
+
+
+     <div class="">
+      <div class="col m12 s12 l12 ">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-item white-text parallax" href="#one!" style="background-image: url('images/DSC100486128.jpg');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+            <br>
+            <br>
+            <br>
+            <h2>CHARITY & LOVE ARE THE SAME</h2>
+            <p class="flow-text container" style="font-size: 30px;font-weight: 500;">You have not lived today until you have done something for someone who can never repay you.</p>
+            <div class="carousel-fixed-item center">
+              <span>--Annonymous</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="row container">
+          <div class=" blue" style="padding-left: 70px;padding-right: 70px;">
+          <div class="col l12 m12 s12" style="margin-top: 50px;">
+            <img src="images/self esteem.jpeg" class="responsive-img" alt="" width="100%">
+            <div style="border-top: 1px solid black;border-bottom: 1px solid black;padding-top:25px;padding-bottom:25px;">
+            <p style="font-size: 20px; flow-text"><b>Low Self-esteem among teeenagers is a very importanct factors in their lives that can determine whether
+                they achieve their dreams or not.Many of these victims remain silent.Low Self-esteem must be dealt with as soon as possible
+                to prevent damagege to the victims mental health which will affect every other aspect of their lives.<b>
+            </p>
+            </div>
+            <br>
+            <br>
+            <i style="font-weight: 200;">Last updated on jan 2021 11:53pm</i>
+            <h5><b>On this page:</b></h5>
+            <div style="border-bottom:1px solid black;padding-bottom:40px;">
+              <ul style="font-weight:600;font-size:15px;line-height: 40px;" >
+                <li><a href="#1"  class="blue-text"><u>What is Low self esteem</u></a></li>
+                <li><a href="#2" class="blue-text"><u>What Causes Low self esteem</u></a></li>
+                <li><a href="#3" class="blue-text"><u>How to keep away from Low self esteem chrisis</u></a></li>
+                <li><a href="" class="blue-text"><u>Remedies of Low self esteem</u></a></li>
+                <li><a href="" class="blue-text"><u>How to know if you are suffering from low esteem</u></a></li>
+              </ul> 
+            </div>
+            <div class="row">
+              <div class="col m12">
+                <h5 class="orange-text" style="font-weight: 700;" id="1" >What is low self Esteeem</h5>
+                <img src="images/header image.jpg" class="responsive-img" alt="" width="100%">
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Self esteem is the valuation one places on one's self in all areas of life.Self esteem is 
+                  one's perception of him or herself.When our self-esteem is low, we percieve ourselves and our life in a more negative  way. We also feel 
+                  less able to take on the challenges that comes in life .</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Low self esteem is characterized by lacking confidence feeling incompetent.Most of the cases one feels like a fraud in everything they have accomplished</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                  One experiences withdawak sysmptons and does not want to interact with other people.Once is this state of mind one see's that everybody is against you.Any slight
+                  critic from anyone can trigger an emotional breakdown
+                </p>
+                <h5 class="orange-text" id="2" style="font-weight: 700;">What casues Low self-esteem</h5>
+                <img src="images/download (1).jpg" class="responsive-img" alt="" >
+                <img src="images/download.jpg" class="responsive-img" alt="">
+                <img src="images/download (1).jpg" class="responsive-img" alt="" width="30%" >
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Low self-esteem can be casued by a variety of factors.Some of the cases in most
+                  people in their childhood when they handle correction or critics in a wrong way.The following are most of the reasons why people have low self-esteem.<b>:</b></p>
+                  <ol>
+                    <li style="font-size: 20px;">Know your worth:</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">It is importannt that you know your  worth is not determined by what other people say.Some have the intention of bringing your inner person down
+                      Have a firm picture of who you are and what you are worth,do not let their opinions drown your inner being
+                    </p>
+                    <li style="font-size: 20px;">Failure in life:</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">One is supposed to learn from failures.Failures in life are not suppoed to put you down,you learn from them and improve from that point
+                      as to achieve your goal.Many people have low self-esteem after experiencing failure because they feel they don't have the capability to tackle the task and makes the feel incompetent.You should avoid self pity
+                      at all costs.work on correcting the previous fault
+                      <blockquote class="introduction">
+                        "Giving up is the only sure way to fail  -Gena Showalter"
+                        Some people give app because they don't know how to react to failur positively.If you do give up your failure is certain
+                      </blockquote> </p>
+                    <li style="font-size: 20px;">Ill treatment </li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Low self esteem can arise when one is ill treated by someone they value in their lives eg a parent,friends or some relatives.They may do so by oversteeping 
+                      your opinions and disregarding them, disrespect bellitling you and making you feel like you dont matter.In some extreme cases this can even be physical harasment.You should stand up for yourself and shouldn't let anyone step
+                      over you.Most importantly,make sure to seek help
+                      <blockquote class="introduction">
+                        You should never let anyone mistreat you in anyway.You matter just like anything else.
+                        If your environment is such,you can consider changing it or change the people that make you feel so 
+                      </blockquote>
+                    </p>
+                    <li style="font-size: 20px;">Lack of self acceptance</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Rejecting one's self is the root of lacking self esteem.This may occur 
+                     because one may not like their current situation like Financials,academic performance or body figure.You should accept and take ownership of your current situation and plan your way out of them.If there is
+                    nothing that can be done like to matters relating to your body then you just have to accept it and learn to leave with it</p>
+                    <blockquote class="introduction">
+                      if you don't like something in one or all of your areas in life(Financials,academics,career etc) you should feel motivated to do something about it and change it.That should not make you reject your self
+                    </blockquote>
+                    <li style="font-size: 20px;">Disaproving authority figures<p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Authority figures refer to people who are important to you and their
+                    opinions influence your life a great deal.They include Parents teachers friend and maybe some close realtives.Once this people mak you feeel that whatever you do is not good enough without the aim of correcting you,This might
+                    lead to low self-esteem.Because of always hearing this since childhood and for some reason not correcting it.This will ruin the image you have of yourself and will make it difficult to recover from.It is 
+                  crucial that if one experiences this from childhood,it should be delt with as soon as possible</p> </li>
+                  <li style="font-size: 20px;">Bullying<p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Bullying is simply taking advanteage of their vulnability and forcing them to do something they
+                    don't want to.This however leads to low self esteem because it causes trauma.It later makes it very difficultfor the victim to stand up for them selves in the future</p></li>
+                    <li style="font-size: 20px;">Focusing on Negative<p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">You have to realise your weaknesess and challenge them.if you 
+                    focus on your negative side too much it will bring your sel-esteem down.Low self-esteem victims focus too much on this that they fail to realise that there is a possibility of changing them.
+                    Yoyu should take ,measures to correct them and move on.
+                  <blockquote class="introduction">
+                    If you always focus on the negative side alone,you will fail to prepare for what the futue holds for you.Remember that you also have  positive qualities too.
+                  </blockquote>
+                  </p></li>
+                  </ol>
+                  <h5 class="orange-text" id="3" style="font-weight: 700;">How to keep away from Low self esteem chrisis</h5>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Low self-esteem should be avoided because of the damage it can cause in ones life.Low self esteem affects a person
+                    life on every sector from realationships with other to accademic performance and even productivity on the work place</p>
+                    <ol style="font-weight: 300;list-style-type:disc;line-height: 50px;">
+                      <li style="font-size: 20px;">Take criticsm in a positve way and work on them to improve your self</li>
+                      <li style="font-size: 20px;">Do away withany toxic  behavours like negative thoughts about yourself and others like drug abuse</li>
+                      <li style="font-size: 20px;">Make improvements to areas which make you feel bad about yourself eg academic performance etc</li>
+                      <li style="font-size: 20px;">Keep away from friend or relatives who have a bad influence in your life eg by forcing you to do thing that even yourselfknow that they are harmful.Friends are supposed 
+                      to build you and make you a better version of yourself</li>
+                      <li style="font-size: 20px;">Stand up for yourself when someone tries to disrespect or mistreat you in anyway</li>
+                      <li style="font-size: 20px;">always communicate where it is needed do not shy off</li>
+                      <li style="font-size: 20px;">Love and take care of yourselfeven if no one else does.Do not indulge in activities that harm you.</li>
+                    </ol>
+                    <h5 class="orange-text" id="4" style="font-weight: 700;">Remedies of Low self esteem</h5>
+                    <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Many people find themselves already sunk in this situation but no by choice.If you have low self esteem it doesn't
+                     mean that you are doomed you can recover.The following tips will help you recover from it:</p>
+                     <ol style="font-weight: 300;list-style-type:disc;line-height: 50px;">
+                       <li style="font-size: 20px;">Be compasionante towards yourself.You deserve to beloved and also love yourself just like any other person</li>
+                       <li style="font-size: 20px;">Change the negative mindeset you have of yourself completely</li>
+                       <li style="font-size: 20px;">Forgive yourself of past mistakes and failures and if possible and neccesary correct them</li>
+                       <li style="font-size: 20px;">Don't judge yourself.Accept who you are with your experiences failures and imperfections just like you accept others as they are </li>
+                       <li style="font-size: 20px;">Discover the troubling condition that makes you feel or lower your self esteem</li>
+                     </ol>
+                        <div class="container">
+                          CLICK BUTTON BELOW TO DOWNLOAD THIS ARTICLE   <br>
+                          <br>
+                          <div class="container">
+                            <button class="btn orange pulse"><a href="Docs/Savude-low-selfesteem.docx" download class="white-text">Download Article (34kb)</a></button>
+                          </div>
+                        </div>
+                      <!-- <h4>Related Videos</h4>
+                      <div class="row">
+                        <div class="col l3 m3 s12">
+
+                        </div>
+                        <div class="col l3 m3 s12">
+                          
+                        </div>
+                        <div class="col l3 m3 s12">
+                          
+                        </div>
+                        <div class="col l3 m3 s12">
+                          
+                        </div>
+                      </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col m12 s12 " style="padding-top:135px;padding-bottom:5px;">
+            <div class="row center-align" style="font-weight: 400;font-size: 20px;line-height: 50px;">
+              <div class="col m12 s12">
+                <div class="card-panel z-depth-1">
+                  
+                  <span class="">Have I not commanded you? Be strong and courageous. Do not be afraid; do not
+                    be discouraged, for the Lord your God will be with you wherever you go.</span> <br>
+                    Joshua 1:9
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row center-align" style="font-weight: 400;font-size: 20px;line-height: 50px;">
+              <div class="col m12 s12 l12 hide-on-small-and-down">
+                <div class="card-panel z-depth-1">
+                  
+                  <span class="">Self care is never a selfish act-it is simply good 
+                    stewardship of the only gift i have,the gift i was put on earth to offer 
+                    to others</span> <br>
+                    -Parker Palmer
+                </div>
+              </div>
+            </div>
+
+              <h5 style="font-weight: 700;">You might also like</h5>
+              <div class="row">
+                <div class="col s12 m6 l4 ">
+                  <a href="selfesteem.html">
+                  <div class="card black-text" style="font-weight: 500;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="responsive-img" src="images/self esteem.jpeg" style="width: 100%;">                    </div>
+                    <div class="card-content">
+                      <p>SelfLove ,Self acceptance and self esteem among the teenagers</p> 
+                    </div>
+                    <div class="card-reveal" style="text-align: justify;">
+      
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col s12 m6 l4">
+                  <a href="adolscence in boys.html">
+                    <div class="card black-text" style="font-weight: 500;">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="images/DSC100304031.jpg" style="width: 100%;">                    </div>
+                      <div class="card-content">
+                        <p>Changes in the male during puberty and how to copy</p> 
+                      </div>
+                      <div class="card-reveal" style="text-align: justify;">
+                        <span class="card-title grey-text text-darken-4">Pamela Kangonya<i class="material-icons right">close</i></span>
+                             
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col s12 m6 l4">
+                  <a href="adolesence in girls.html">
+                    <div class="card black-text" style="font-weight: 500;">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="images/download (1).jpeg" style="width: 100%;">                    </div>
+                      <div class="card-content">
+                        <p>Changes in the male during puberty and how to copy</p> 
+                      </div>
+                      <div class="card-reveal" style="text-align: justify;">
+                        <span class="card-title grey-text text-darken-4">Pamela Kangonya<i class="material-icons right">close</i></span>
+                             
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Savude Foundation</h4>
+          <h5>Overview</h5>
+          <p class="" style="font-size:17px;">The Savude Foundation is a non-governmental,humanitarian,
+            non-partisan and non-profit making organization. SaF aims at contributing
+            to the general health, education and developmental needs of vulnerable 
+            individuals and communities in Kenya. Specifically, it focuses on empowering 
+            adolescent girls by building their academic, social, health and economic skills, 
+            life skills-based education, financial literacy, livelihoods training and health 
+            related activities.</p>
+            <h5>Mission</h5>
+            <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+              life skills-based education, financial literacy, livelihoods training and health related 
+              activities.We also strive to get things like sanitary towels clothes and learning materials
+              to the ones in need.By this we impact their livelihoods and help them achieve their dreams.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+        </div>
+      </div>
+    
+      <!-- modal -->
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Savude Foundation</h4>
+            <h5>Mission</h5>
+            <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+              life skills-based education, financial literacy, livelihoods training and health related 
+              activities.We also strive to get things like sanitary towels clothes and learning materials
+              to the ones in need.By this we impact their livelihoods and help them achieve their dreams.</p>
+              <h5>Goals</h5>
+              <p class="" style="font-size:17px;">
+                Our goal is to ensure that we reach out to many people as possible who need our help and support.
+                With your help(Funds) we will reach many people and at the same time be effective with that
+              </p>
+        </div>
+        <div class="modal-footer">
+          <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+        </div>
+      </div>
+    
+    
+      <footer class="page-footer orange ">
+        <div class="container center-align">
+          <div class="row">
+            <div class="col m12 s12 l12 center-align">
+             <img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px">
+            </div>
+          </div>
+          <div class="row center-align">
+            <div class="col m12 l4 s12 center-align">
+              <h5>About us</h5>
+              <ul class="" style="cursor: pointer;">
+               <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal1">Overview</a></li>
+                <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal2">Missions Visions & goals</a></li>
+                <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="about.html">Our staff</a></li>
+                </ul>
+            </div>
+            <div class="col l5 m12 s12">
+              <h5 class="">Savude Foundation</h5>
+              <p class="grey-text text-lighten-4 black-text" style="font-family: 'Lobster', cursive;font-size: 25px;color:black;">Giving is not just about making a donation. It is about changing lives.” <br>
+                 </p>
+                 <div class="row center-align">
+                   <div class="col m12 s12 center-align" style="font-family: 'Lobster', cursive;font-size: 25px;">
+                   <p>-Kathy Calvin</p>
+                   </div>
+                 </div>
+            </div>
+            <div class="col l3 m12 s12 black-text ">
+              <h5 class="white-text">Quick Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="media.html">Media</a></li>
+                <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="donate.html">Donate</a></li>
+                <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+           <script>
+             var date = new Date();
+             var year =  date.getFullYear();
+             document.write("© "+year +" Savude Foundation");
+           </script> 
+          <a class="grey-text text-lighten-4 right" href="#!">Website by Harrison Njenga</a>
+          </div>
+        </div>
+      </footer>
+      </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+    var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+    });
+    
+    // Or with jQuery
+    
+    // $('.carousel.carousel-slider').carousel({
+    //   fullWidth: true,
+    //   indicators: true
+    // });
+    $(document).ready(function(){
+    indicators = "false";
+    $('.slider').slider();
+    });
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+    });
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+    $('.modal').modal();
+    });
+    $('.carousel-slider').carousel({ fullWidth: true });
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Favicon/favicon.jpeg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Font Api's -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Custom css import-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&display=swap" rel="stylesheet"> 
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Savude Foundation | Puberty in Boys</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar-fixed ">
+        <nav class="white">
+          <div class="nav-wrapper">
+            <div class="container">
+            <a href="#!" class="brand-logo"   id="logo"><img src="images/Favicon/faviconpng - Copy.png" alt="" height="50px" width="80px"></a>
+            <a href="#"  data-target="mobile-demo" class="sidenav-trigger teal-text"><i class="material-icons">menu</i></a>
+            </div>
+            <ul class="right hide-on-med-and-down black-text" style="padding-right: 50px;">
+              <li><a href="index.html" class="black-text active">Home</a></li>
+              <li><a href="media.html" class="black-text">Media</a></li>
+              <li><a href="donate.html" class="black-text">Donate</a></li>
+              <li><a href="about.html" class="black-text">About</a></li>
+              <li><a href="contact.html" class="black-text">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div style="visibility: hidden;" id="body">
+        <div style="transform:translate(-50%,-50%);position:absolute;left:50%;top: 50%;">
+        <div style="position: absolute; visibility:;" id="loader">
+          <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div>
+              <div class="gap-patch">
+                <div class="circle"></div>
+              </div>
+              <div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <script>
+          var loader= document.getElementById('loader');
+          loader.style.visibility="visible";
+          var body= document.getElementById('body');
+          setTimeout(function() {
+            loader.style.visibility="hidden";
+            body.style.visibility="visible";
+          },2000)
+        </script>
+      <!-- Side Bar -->
+      <ul class="sidenav" id="mobile-demo">
+        <div class="container center-align">
+          <i class="material-icons right" onclick=document.getElementById("mobile-demo").style.display="none"; style="cursor: pointer;transition: 7s;">close</i>
+          <a href="#!" class="brand-logo"   id="logo"><img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px" width="110px"></a>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="media.html">Activities</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <!-- Navigation End -->
+  
+
+      <!-- <div class="slider" style="height: 600px;">
+        <ul class="slides">
+          <li>
+            <img src="images/self esteem.jpeg" class="responsive-img" style="background-repeat: no-repeat;background-size: cover;height: 100%;width: 100%;"> 
+            <div class="caption left-align orange-text">
+              <h3 style="font-weight: 500;font-size: 60px;" class="white-text">SelfLove ,Self acceptance and self esteem among the teenagers</h3>
+              <h5 class="orange-text" style="font-weight: 700;font-size: 30px;">Suitable for everyone</h5>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+
+      <!-- <div class="row orange">
+          <div class="col m12">
+            <a href="#!" class="breadcrumb">First</a>
+            <a href="#!" class="breadcrumb">Second</a>
+            <a href="#!" class="breadcrumb">Third</a>
+          </div>
+      </div> -->
+      
+
+     <!-- <div class="row">
+       <div class="col s12 m12 l12 " style="height: 300px;background-color: rgb(19, 40, 110);padding:100px">
+        <h3 style="font-weight: 500;font-size: 30px;" class=" valing-wrapper"><b>Topic :</b>SelfLove ,Self acceptance and self esteem among the teenagers</h3>
+        <h5 class="orange-text" style="font-weight: 700;font-size: 30px;"> <b>Suitability :</b> Suitable for everyone</h5>
+       </div>
+     </div> -->
+
+
+     <div class="">
+      <div class="col m12 s12 l12">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-item white-text parallax" href="#one!" style="background-image: url('images/DSC100486128.jpg');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+            <br>
+            <br>
+            <br>
+            <h2>CHARITY & LOVE ARE THE SAME</h2>
+            <p class="flow-text container" style="font-size: 30px;font-weight: 500;">You have not lived today until you have done something for someone who can never repay you.</p>
+            <div class="carousel-fixed-item center">
+              <span>--Annonymous</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="row container">
+          <div class=" blue" style="padding-left: 70px;padding-right: 70px;">
+          <div class="col l12 m12 s12" style="margin-top: 50px;">
+            <img src="images/self esteem.jpeg" class="responsive-img" alt="" width="100%">
+            <div style="border-top: 1px solid black;border-bottom: 1px solid black;padding-top:25px;padding-bottom:25px;">
+            <p style="font-size: 20px; flow-text"><b>Puberty is a process which each and every one of use went through in some stage of life.
+              This stage was characterized by physical body changes,emotional changes and many more.Many of the teenagers get caught up in this stage and get
+              involved in harmful activities due to lack of proper understanding of this process.In this article we will talk about puberty in boys<b>
+            </p>
+            </div>
+            <br>
+            <br>
+            <i style="font-weight: 200;">Last updated on jan 2021 11:53pm</i>
+            <h5><b>On this page:</b></h5>
+            <div style="border-bottom:1px solid black;padding-bottom:40px;">
+              <ul style="font-weight:600;font-size:15px;line-height: 40px;" >
+                <li><a href="#1"  class="blue-text"><u>What is Puberty</u></a></li>
+                <li><a href="" class="blue-text"><u>When does puberty start ?</u></a></li>
+                <li><a href="#2" class="blue-text"><u>Changes that occur during Puberty</u></a></li>
+                <li><a href="#3" class="blue-text"><u>How to take care of yourself during puberty</u></a></li>
+                <!-- <li><a href="" class="blue-text"><u>Remedies of Low self esteem</u></a></li>
+                <li><a href="" class="blue-text"><u>How to know if you are suffering from low esteem</u></a></li> -->
+              </ul> 
+            </div>
+            <div class="row">
+              <div class="col m12">
+                <h5 class="orange-text" style="font-weight: 700;" id="1" >What is puberty</h5>
+                <img src="images/header image.jpg" class="responsive-img" alt="" width="100%">
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Puberty is a process in life which is amrked by physical ,emotionaland mental advancements.</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">During puberty many physical changes take place that show that a person is moving from childhood to adolescence</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                  This is a period filled with anxieties and doubts.Therfore persons under going through such changes deserve much attention and care as possible
+                </p>
+                <h5 class="orange-text" id="2" style="font-weight: 700;">When does puberty start</h5>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Puberty starts when changes in the brain cause sex hormones to start being released in girls’ ovaries and boys’ testes.This changes in the brain also triggers develpment in certain parts the body</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">This usually happens around 10-11 years for girls and <b>around 11-13 years for boys.</b>it’s normal for the start of puberty to range from 8-13 years in girls and 9-14 years in boys. Every child is different.</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">There’s no way of knowing exactly when puberty will start . Early changes in the brain and hormone levels can’t be seen from the outside, so it’s easy to think that puberty hasn’t started.</p>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Puberty can be completed in about 18 months, or it can take up to five years. This range is also completely normal.</p>
+                <h5 class="orange-text" id="2" style="font-weight: 700;">Changes that occur during Puberty</h5>
+                <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">The following changes are to be expected with their respective ages</p>
+                  <ul>
+                    <li style="font-size: 20px;">Around 11-12 years</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                      <ol style="list-style-type:disc;">
+                          <li style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">The external genitals (penis, testes and scrotum) will start to grow. It’s normal for one testis to grow faster than the other. You can reassure your son that men’s testes usually aren’t the same size.</li>
+                          <li style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Pubic hair will start to grow. It will get darker and thicker over time.</li>
+                      </ol>
+                    </p>
+                    <li style="font-size: 20px;">Around 13-14 years</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                      <ol style="list-style-type:disc;">
+                          <li style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">You will have a growth spurt. You get taller and his chest and shoulders will get broader. Some parts of the body – like his head, face and hands – might grow faster than his limbs and torso. This might leave him looking out of proportion for a while. On average boys grow 10-30 cm. They usually stop growing at around 18-20 years.</li>
+                          <li style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">Pubic hair will start to grow. It will get darker and thicker over time.</li>
+                      </ol>
+                    </p>
+                    <li style="font-size: 20px;">Around 14-15 years</li><p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                      <ol style="list-style-type:disc;">
+                          <li style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                            The larynx (‘Adam’s apple’ or voice box) will become more obvious. Your larynx will get larger and the voice will ‘break’, eventually becoming deeper. Some boys’ voices move from high to low and back again, even in one sentence. This will stop in time.
+                          </li>                      
+                        </ol>
+                    </p>
+                  </ul>
+                  <h5 class="orange-text" style="font-weight: 700;">Other physical changes in puberty</h5>
+                  <b style="font-size: 26px;font-weight: 600;">Brain</b>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                    Changes in the teenage brain affect your child’s behaviour and social skills. Your child will begin to develop improved self-control and skills in planning, problem-solving and decision-making. This process will continue into your child’s mid-20s.
+                  </p>
+                  <b style="font-size: 26px;font-weight: 600;">Bones, organs and body systems</b>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                    Many of your child’s organs will get bigger and stronger. Lung performance improves, limbs grow, and bones increase in thickness and volume.
+                  </p>
+                  <b style="font-size: 26px;font-weight: 600;">Dizzyness</b>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                    Because children grow so fast during puberty, their centres of gravity change and their brains might take a while to adjust. This might affect your child’s balance. You might see a bit more clumsiness for a while, and your child might be more likely to be injured.                  
+                  </p>
+                  <b style="font-size: 26px;font-weight: 600;">Physical strength</b>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                    Muscles increase in strength and size during this period. Your child’s hand-eye coordination will get better over time, along with motor skills like ball-catching and throwing                  
+                  </p>
+                  <b style="font-size: 26px;font-weight: 600;">Weight</b>
+                  <p style="font-weight: 300;font-size: 20px;line-height:35px;blue;text-align: justify;">
+                    Your child will gain weight and need more healthy food. Teenagers’ stomachs and intestines increase in size, and they need more energy, proteins and minerals. Foods with plenty of calcium and iron are important for bone growth and blood circulation.                  </p>
+                  
+                  <h5 class="orange-text" id="3" style="font-weight: 700;">How to take care of yourself during puberty</h5>
+                    <ol style="font-weight: 300;list-style-type:disc;line-height: 50px;">
+                      <li style="font-size: 20px;">Do not deny yoursekl adequate sleep Your changing body needs sleep—lots of it. Puberty takes up a lot of energy. </li>
+                      <li style="font-size: 20px;">Since the body is developing and requires alot of energy,a balanced diet is important to complete this process.void any unhealty food or unhealthy eating habits</li>
+                      <li style="font-size: 20px;">Physical exercises</li>
+                      <li style="font-size: 20px;">Avoid any harmful activity in anyway like drug abuse</li>                      
+                      <li style="font-size: 20px;">always communicate where it is needed do not shy off</li>                    
+                    </ol>
+                        <div class="container">
+                          CLICK BUTTON BELOW TO DOWNLOAD THIS ARTICLE   <br>
+                          <br>
+                          <div class="container">
+                            <button class="btn orange pulse"><a href="Docs/Savude-low-selfesteem.docx" download class="white-text">Download Article (34kb)</a></button>
+                          </div>
+                        </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 s12 " style="padding-top:135px;padding-bottom:5px;">
+            <div class="row center-align" style="font-weight: 400;font-size: 20px;line-height: 50px;">
+              <div class="col m12 s12">
+                <div class="card-panel z-depth-1">
+                  
+                  <span class="">Have I not commanded you? Be strong and courageous. Do not be afraid; do not
+                    be discouraged, for the Lord your God will be with you wherever you go.</span> <br>
+                    Joshua 1:9
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row center-align" style="font-weight: 400;font-size: 20px;line-height: 50px;">
+              <div class="col m12 s12 l12 hide-on-small-and-down">
+                <div class="card-panel z-depth-1">
+                  
+                  <span class="">Self care is never a selfish act-it is simply good 
+                    stewardship of the only gift i have,the gift i was put on earth to offer 
+                    to others</span> <br>
+                    -Parker Palmer
+                </div>
+              </div>
+            </div>
+
+              <h5 style="font-weight: 700;">You might also like</h5>
+              <div class="row">
+                <div class="col s12 m6 l4 ">
+                  <a href="selfesteem.html">
+                  <div class="card black-text" style="font-weight: 500;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="responsive-img" src="images/self esteem.jpeg" style="width: 100%;">                    </div>
+                    <div class="card-content">
+                      <p>SelfLove ,Self acceptance and self esteem among the teenagers</p>
+                    </div>
+                    <div class="card-reveal" style="text-align: justify;">
+      
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col s12 m6 l4">
+                  <a href="adolscence in boys.html">
+                    <div class="card black-text" style="font-weight: 500;">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="images/DSC100304031.jpg" style="width: 100%;">                    </div>
+                      <div class="card-content">
+                        <p>Changes in the male during puberty and how to copy</p> 
+                      </div>
+                      <div class="card-reveal" style="text-align: justify;">
+                        <span class="card-title grey-text text-darken-4">Pamela Kangonya<i class="material-icons right">close</i></span>
+                             
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col s12 m6 l4">
+                  <a href="adolesence in girls.html">
+                    <div class="card black-text" style="font-weight: 500;">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="images/download (1).jpeg" style="width: 100%;">                    </div>
+                      <div class="card-content">
+                        <p>Changes in the male during puberty and how to copy</p> 
+                      </div>
+                      <div class="card-reveal" style="text-align: justify;">
+                        <span class="card-title grey-text text-darken-4">Pamela Kangonya<i class="material-icons right">close</i></span>
+                             
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Savude Foundation</h4>
+          <h5>Overview</h5>
+          <p class="" style="font-size:17px;">The Savude Foundation is a non-governmental,humanitarian,
+            non-partisan and non-profit making organization. SaF aims at contributing
+            to the general health, education and developmental needs of vulnerable 
+            individuals and communities in Kenya. Specifically, it focuses on empowering 
+            adolescent girls by building their academic, social, health and economic skills, 
+            life skills-based education, financial literacy, livelihoods training and health 
+            related activities.</p>
+            <h5>Mission</h5>
+            <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+              life skills-based education, financial literacy, livelihoods training and health related 
+              activities.We also strive to get things like sanitary towels clothes and learning materials
+              to the ones in need.By this we impact their livelihoods and help them achieve their dreams.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+        </div>
+      </div>
+    
+      <!-- modal -->
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Savude Foundation</h4>
+            <h5>Mission</h5>
+            <p class="" style="font-size:17px;">Our mission is to educate the teenagers on academic, social, health and economic skills,
+              life skills-based education, financial literacy, livelihoods training and health related 
+              activities.We also strive to get things like sanitary towels clothes and learning materials
+              to the ones in need.By this we impact their livelihoods and help them achieve their dreams.</p>
+              <h5>Goals</h5>
+              <p class="" style="font-size:17px;">
+                Our goal is to ensure that we reach out to many people as possible who need our help and support.
+                With your help(Funds) we will reach many people and at the same time be effective with that
+              </p>
+        </div>
+        <div class="modal-footer">
+          <a href="about.html" class="modal-close waves-effect waves-green btn-flat teal-text">Learn More </a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat orange">OK</a>
+        </div>
+      </div>
+    
+    
+      <footer class="page-footer orange ">
+        <div class="container center-align">
+          <div class="row">
+            <div class="col m12 s12 l12 center-align">
+             <img src="images/Favicon/faviconpng - Copy.png" alt="" height="80px">
+            </div>
+          </div>
+          <div class="row center-align">
+            <div class="col m12 l4 s12 center-align">
+              <h5>About us</h5>
+              <ul class="" style="cursor: pointer;">
+               <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal1">Overview</a></li>
+                <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="#modal2">Missions Visions & goals</a></li>
+                <li style="margin-bottom: 15px;"><a class="grey-text text-lighten-3 modal-trigger"  href="about.html">Our staff</a></li>
+                </ul>
+            </div>
+            <div class="col l5 m12 s12">
+              <h5 class="">Savude Foundation</h5>
+              <p class="grey-text text-lighten-4 black-text" style="font-family: 'Lobster', cursive;font-size: 25px;color:black;">Giving is not just about making a donation. It is about changing lives.” <br>
+                 </p>
+                 <div class="row center-align">
+                   <div class="col m12 s12 center-align" style="font-family: 'Lobster', cursive;font-size: 25px;">
+                   <p>-Kathy Calvin</p>
+                   </div>
+                 </div>
+            </div>
+            <div class="col l3 m12 s12 black-text ">
+              <h5 class="white-text">Quick Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="media.html">Media</a></li>
+                <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="donate.html">Donate</a></li>
+                <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+           <script>
+             var date = new Date();
+             var year =  date.getFullYear();
+             document.write("© "+year +" Savude Foundation");
+           </script> 
+          <a class="grey-text text-lighten-4 right" href="#!">Website by Harrison Njenga</a>
+          </div>
+        </div>
+      </footer>
+      </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+    var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+    });
+    
+    // Or with jQuery
+    
+    // $('.carousel.carousel-slider').carousel({
+    //   fullWidth: true,
+    //   indicators: true
+    // });
+    $(document).ready(function(){
+    indicators = "false";
+    $('.slider').slider();
+    });
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+    });
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+    $('.modal').modal();
+    });
+    $('.carousel-slider').carousel({ fullWidth: true });
+    </script>
+    </body>
+    </html>

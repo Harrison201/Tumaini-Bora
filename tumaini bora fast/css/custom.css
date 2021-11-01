@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+::selection {
+    color: purple;
+}
+body {
+    font-weight: 400;
+
+}
+.navbar-fixed {
+    /* padding-right: 10px; */
+    
+}
+#logo {
+    margin-right: 40px;
+}
+/* .menu {
+    margin-left: 40px;
+} */
+/* .slidess img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100%;
+} */
+.slide {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+.introduction {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+    padding-bottom: 0%;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-size: 19px;
+    font-weight: 300;
+}
+#header_intro {
+    letter-spacing: px;
+    padding-left: 0px;
+}
+.btn {
+    border-radius: 50px;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y:hidden ;
+}
+.intro{
+    text-align: justify;
+}
+.topbar {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    position: relative;
+}
+/* button {
+    outline: none;
+    border: none;
+    
+} */
